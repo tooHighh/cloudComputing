@@ -503,25 +503,25 @@ nav h1 {
   right: 100%;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1199px) {
   body {
     font-size: 14px;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 991px) {
   body {
     font-size: 12px;
   }
 }
 
-@media (max-width: 950px) {
-  body {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 801px) {
+@media (max-width: 767px) {
   body {
     font-size: 10px;
   }
@@ -544,7 +544,7 @@ nav h1 {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 599px) {
   body {
     font-size: 8px;
   }
@@ -627,7 +627,7 @@ nav h1 {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 480px) {
   body {
     font-size: 6px;
   }
