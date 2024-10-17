@@ -399,9 +399,12 @@ nav h1 {
   box-shadow: rgb(173, 173, 173) -0.1em 0.1em 0.45em;
 }
 
-.shift .previous,
 .shift .next {
-  width: 6em;
+  width: 5em;
+}
+
+.shift .previous{
+  width: 7em;
 }
 
 .shift button:hover {
