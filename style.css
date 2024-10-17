@@ -546,7 +546,7 @@ width:7em
 
 @media (max-width: 599px) {
   body {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   nav {
@@ -627,9 +627,9 @@ width:7em
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   body {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 
