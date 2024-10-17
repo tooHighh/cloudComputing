@@ -73,10 +73,11 @@ const i2 = document.getElementById("iMain2");
 const i3 = document.getElementById("iMain3");
 const content = document.getElementById("page1");
 
-if (
-  document.location.pathname.split("/").pop() == "index.html" ||
-  document.location.pathname.split("/").pop() == ""
-) {
+if (document.location.pathname.split("/").pop() == "") {
+  document.location.href = "index.html";
+}
+
+if (document.location.pathname.split("/").pop() == "index.html") {
   window.onload = function () {
     typeWriter();
     delayAnim();
